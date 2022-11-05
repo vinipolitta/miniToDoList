@@ -40,6 +40,7 @@ export class ToDoListComponent implements OnInit, DoCheck {
       const confirm = window.confirm(
         'Are you sure you want task is null realy reset task?'
       );
+
       if (confirm) {
         this.deleteItemTaskList(index);
       }
